@@ -1,0 +1,17 @@
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px red,
+        inset 0 0 10px red;
+  p {
+    font-size: 16px;
+  }
+  i {
+    font-size: 24px;
+    color: red;
+  }
+}
